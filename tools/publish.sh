@@ -32,7 +32,6 @@ update_files() {
 
 commit() {
   msg="Updated"
-
   if [[ ! -z $(git status categories -s) ]]; then
     git add categories/
     msg+=" the Categories"
@@ -71,7 +70,7 @@ commit() {
 }
 
 push() {
-  git push origin master -q
+  git push origin blog -q
   echo "[INFO] Published successfully!"
 }
 
@@ -79,8 +78,9 @@ main() {
 
   cd "$WORK_DIR"
 
-  check_status
-
+#  check_status
+  git add .
+  git commit -m "post"
   update_files
 
   commit
