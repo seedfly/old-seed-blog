@@ -49,9 +49,9 @@ ENGINE=InnoDB
 
 这里使用explain语句来看索引的使用情况
 
-![ ](/assets/img/20190108132101106.png)
+![ ](/media/shang/extdata/old-seed-blog/assets/img/20190108132101106.png)
 
-![ ](/assets/img/20190108132149873.png)
+![ ](/media/shang/extdata/old-seed-blog/assets/img/20190108132149873.png)
 
 可以看到对于testuser1表来说。用id字段查询的时候用到了主键索引，用age字段查询的时候没有用到索引
 
