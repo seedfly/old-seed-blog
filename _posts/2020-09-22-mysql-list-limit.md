@@ -78,7 +78,7 @@ mysql> SELECT * FROM table_name LIMIT 10 OFFSET 8000001;
 
 和优化的版本：
 
-```clike
+```sql
 mysql> SELECT * FROM table_name WHERE id > 8000000 LIMIT 10;
 [...]
 10 rows in set (0.01 sec)
