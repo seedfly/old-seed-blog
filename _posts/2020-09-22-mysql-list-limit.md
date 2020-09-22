@@ -2,7 +2,7 @@
 title: MySQL深翻页问题的优化方法
 author: Ivo Pereira
 date: 2020-09-22 11:34:00 +0800
-categories: [数据库]
+categories: [数据库,mysql]
 tags: [mysql]
 toc: false
 
