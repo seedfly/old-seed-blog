@@ -2,7 +2,7 @@
 title: 转关于美国对华为下手的一些看法
 author: seed
 date: 2019-05-23 14:02:00 +0800
-categories: [business]
+categories: [other]
 tags: [other]
 toc: true
 
